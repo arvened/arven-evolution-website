@@ -1,0 +1,28 @@
+{
+  "name": "arven-platform",
+  "version": "1.0.0",
+  "description": "ARVEN PLATFORM - GDPR & EU AI Act Compliance Automation",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^14.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "^10.16.4",
+    "lucide-react": "^0.292.0",
+    "react-hook-form": "^7.47.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.8"
+  }
+}
