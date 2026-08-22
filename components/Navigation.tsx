@@ -6,10 +6,8 @@ import { Menu, X } from 'lucide-react'
 import dynamic from 'next/dynamic'
 import { useTranslation } from 'next-i18next'
 
-const LanguageSelector = dynamic(() => import('./LanguageSelector'), {
-  ssr: false,
-  loading: () => null
-})
+import LanguageSelector from './LanguageSelector'
+
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
