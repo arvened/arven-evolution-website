@@ -1,7 +1,8 @@
 {
   "name": "arven-platform",
   "version": "1.0.0",
-  "description": "ARVEN PLATFORM – GDPR & Compliance Automation",
+"description": "ARVEN PLATFORM",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
