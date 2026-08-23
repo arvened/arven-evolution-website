@@ -10,7 +10,7 @@ export default function Home() {
       <Navigation />
 
       {/* SECTION 1: HERO */}
-    className="section-gradient-1 pt-32 pb-20 px-4"
+    <section className="section-gradient-1 pt-32 pb-20 px-4">
 
         <div className="container max-w-4xl mx-auto">
           <div className="text-center">
@@ -37,7 +37,8 @@ export default function Home() {
     <div className="section-divider"></div>
 
 
-      className="section-gradient-2 py-20 px-4"
+      <section className="section-gradient-2 py-20 px-4">
+
 
       <section className="py-20 px-4 bg-arven-darker/50">
         <div className="container max-w-4xl mx-auto">
@@ -87,7 +88,8 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            <section className="section-gradient-3 py-20 px-4">
+
           </div>
         </div>
       </section>
@@ -164,7 +166,8 @@ export default function Home() {
               <div className="flex items-center gap-3">
                 <CheckCircle size={20} className="text-arven-green" />
                 <span>NIS2 (Network Security)</span>
-              </div>
+              <section className="section-gradient-1 py-20 px-4">
+
               <div className="flex items-center gap-3">
                 <CheckCircle size={20} className="text-arven-green" />
                 <span>DORA (Digital Operational Resilience)</span>
@@ -182,6 +185,7 @@ export default function Home() {
             We're at the Beginning —
             <span className="block text-arven-cyan">And We're Honest About It</span>
           </h2>
+<section className="section-gradient-4 py-20 px-4">
 
           <div className="bg-arven-bg/50 border-l-4 border-arven-magenta rounded-lg p-8">
             <p className="text-lg text-arven-text-secondary leading-relaxed mb-6">
@@ -237,6 +241,7 @@ export default function Home() {
                 <li>30 min feedback call after receiving your report</li>
               </ul>
             </div>
+<section className="section-gradient-2 py-20 px-4">
 
             <div className="bg-arven-darker/50 border border-arven-green/20 rounded-lg p-8">
               <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-green">
@@ -262,6 +267,7 @@ export default function Home() {
           <h2 className="text-4xl font-montserrat font-bold mb-8 text-center">
             About ARVEN
           </h2>
+<section className="section-gradient-3 py-20 px-4">
 
           <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8">
             <p className="text-lg text-arven-text-secondary mb-6">
@@ -300,6 +306,7 @@ export default function Home() {
                 <strong>Contact:</strong> Igor Melnyk
               </p>
             </div>
+<section className="section-gradient-4 py-20 px-4">
 
             {/* INTITA */}
             <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8">
