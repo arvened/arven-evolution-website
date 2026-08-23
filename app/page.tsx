@@ -10,7 +10,8 @@ export default function Home() {
       <Navigation />
 
       {/* SECTION 1: HERO */}
-      <section className="pt-32 pb-20 px-4">
+    className="section-gradient-1 pt-32 pb-20 px-4"
+
         <div className="container max-w-4xl mx-auto">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-montserrat font-bold mb-6 text-arven-text">
@@ -33,7 +34,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 2: WHY IT MATTERS */}
+      className="section-gradient-2 py-20 px-4"
+
       <section className="py-20 px-4 bg-arven-darker/50">
         <div className="container max-w-4xl mx-auto">
           <h2 className="text-4xl font-montserrat font-bold mb-12 text-center">
@@ -87,7 +89,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 3: HOW IT WORKS */}
+      className="section-gradient-3 py-20 px-4"
+
       <section id="how-it-works" className="py-20 px-4">
         <div className="container max-w-4xl mx-auto">
           <h2 className="text-4xl font-montserrat font-bold mb-16 text-center">
@@ -163,7 +166,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        className="section-gradient-1 py-20 px-4"
+
       </section>
 
       {/* SECTION 4: HONEST STATUS */}
@@ -182,7 +186,8 @@ export default function Home() {
               If you're skeptical of "disruptive" claims — good. We are too. We'd rather be honest about where we are than oversell where we're going.
             </p>
           </div>
-        </div>
+        className="section-gradient-4 py-20 px-4"
+
       </section>
 
       {/* SECTION 5: PILOT PROGRAM */}
@@ -239,7 +244,8 @@ export default function Home() {
                 We're transparent about delays, learnings, and changes as we go.
               </p>
             </div>
-          </div>
+          className="section-gradient-2 py-20 px-4"
+
         </div>
       </section>
 
@@ -259,7 +265,8 @@ export default function Home() {
             </p>
             <p className="text-arven-text-tertiary">
               Our goal: make compliance automation accessible, honest, and actually useful for companies our size.
-            </p>
+            className="section-gradient-3 py-20 px-4"
+
           </div>
         </div>
       </section>
@@ -295,7 +302,8 @@ export default function Home() {
               </p>
               <p className="text-sm text-arven-text-tertiary">
                 <strong>Contact:</strong> Roman Melnyk, Rector
-              </p>
+              className="section-gradient-4 py-20 px-4"
+
             </div>
           </div>
         </div>
@@ -374,6 +382,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+        <div className="section-divider"></div>
+
 
       <Footer />
     </div>
