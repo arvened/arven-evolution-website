@@ -1,3 +1,54 @@
+/* Gold Glow Effect */
+.text-gold-glow {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffd700;
+  text-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.6),
+    0 0 20px rgba(255, 215, 0, 0.4),
+    0 0 30px rgba(139, 26, 111, 0.3);
+}
+
+.text-gold-glow-strong {
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #ffd700;
+  text-shadow: 
+    0 0 15px rgba(255, 215, 0, 0.8),
+    0 0 30px rgba(255, 215, 0, 0.6),
+    0 0 45px rgba(139, 26, 111, 0.4);
+}
+
+/* Section Backgrounds */
+.section-gradient-1 {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a0f2e 50%, #0f0f1e 100%);
+}
+
+.section-gradient-2 {
+  background: linear-gradient(135deg, #1a0f2e 0%, #2d1b4a 50%, #1a0f2e 100%);
+}
+
+.section-gradient-3 {
+  background: linear-gradient(135deg, #0f0f1e 0%, #1a1a3a 50%, #0f0f1e 100%);
+}
+
+.section-gradient-4 {
+  background: linear-gradient(135deg, #2d1b4a 0%, #1a0f2e 50%, #2d1b4a 100%);
+}
+
+.section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffd700, transparent);
+  opacity: 0.6;
+}
+
+/* Thin Font */
+h1, h2, h3 {
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
 
 * {
