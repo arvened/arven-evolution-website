@@ -11,7 +11,7 @@ import LanguageSelector from './LanguageSelector'
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false)
-  const { t } = useTranslation('common')
+  
 
   return (
     <nav className="sticky top-0 z-50 bg-arven-bg/95 backdrop-blur border-b border-arven-magenta/20">
