@@ -38,7 +38,7 @@ export default function Navigation() {
           </a>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4"> 
           <LanguageSelector />
           <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden text-arven-magenta">
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
