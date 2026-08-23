@@ -1,8 +1,8 @@
 'use client'
 
-import Navigation from '@/components/Navigation'
-import Footer from '@/components/Footer'
-import { CheckCircle, AlertCircle, BarChart3, Users, Lock, Zap } from 'lucide-react'
+import Navigation from '@0/components/Navigation'
+import Footer from '@0/components/Footer'
+import { CheckCircle, AlertCircle, BarChart3, Users, Lock } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -10,147 +10,147 @@ export default function Home() {
       <Navigation />
 
       {/* SECTION 1: HERO */}
-    <section className="section-gradient-1 pt-32 pb-20 px-4">
-
+      <section className="section-gradient-1 pt-32 pb-20 px-4">
         <div className="container max-w-4xl mx-auto">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl font-montserrat font-bold mb-6 text-arven-text">
-              <span className="text-arven-magenta">ARVEN PLATFORM</span> — Assess Your
+            <h1 className="text-5xl md:text-6xl font-montserrat font-bold">
+              <span className="text-arven-magenta">ARVEN</span>
               <br />
-              <span className="text-arven-cyan">GDPR & EU AI Act Readiness</span>
+              <span className="text-arven-cyan">GDPR & EU AI Act</span>
             </h1>
-            <p className="text-xl text-arven-text-tertiary mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-arven-text-tertiary mt-6">
               Automated compliance assessment for SMEs. Provide data about your company — get a structured report on risks and gaps without expensive consultants.
             </p>
-            <div className="flex flex-col md:flex-row gap-4 justify-center">
-              <button className="px-8 py-4 bg-arven-magenta text-arven-bg font-montserrat font-semibold rounded-lg hover:bg-arven-cyan hover:text-arven-bg transition-all text-lg">
+            <div className="flex flex-col md:flex-row gap-4 justify-center mt-8">
+              <button className="px-8 py-4 bg-arven-magenta text-white font-medium hover:opacity-90">
                 Get Pilot Audit
               </button>
-              <button className="px-8 py-4 border-2 border-arven-cyan text-arven-cyan font-montserrat font-semibold rounded-lg hover:bg-arven-cyan/10 transition-all text-lg">
+              <button className="px-8 py-4 border-2 border-arven-magenta text-arven-magenta font-medium hover:bg-arven-magenta/10">
                 Learn More
               </button>
             </div>
           </div>
         </div>
       </section>
-    
-    <div className="section-divider"></div>
 
+      <div className="section-divider"></div>
 
+      {/* SECTION 2: WHY IT MATTERS */}
       <section className="section-gradient-2 py-20 px-4">
-
-
-      <section className="py-20 px-4 bg-arven-darker/50">
         <div className="container max-w-4xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-12 text-center">
+          <h2 className="text-4xl font-montserrat font-bold">
             Why This Matters
-            <span className="block text-arven-cyan text-2xl mt-2 font-normal">Right Now</span>
+            <span className="block text-arven-cyan text-2xl mt-2">Right Now</span>
           </h2>
 
-          <div className="space-y-6">
-            <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8">
+          <div className="space-y-6 mt-12">
+            <div className="bg-arven-bg/50 border border-arven-magenta/20 p-6">
               <div className="flex gap-4 mb-4">
-                <AlertCircle className="text-arven-red flex-shrink-0" size={24} />
+                <AlertCircle className="text-arven-red flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-montserrat font-bold mb-2">EU AI Act Requirements</h3>
-                  <p className="text-arven-text-tertiary mb-2">
+                  <h3 className="text-xl font-montserrat font-bold">
+                    EU AI Act Requirements
+                  </h3>
+                  <p className="text-arven-text-tertiary mt-2">
                     Since August 2026, EU AI Act articles 50 (transparency) and 4 (AI literacy) are in effect. If you use AI tools — which most SMEs do — you must disclose it and ensure staff understand AI use.
                   </p>
-                  <p className="text-sm text-arven-cyan">
-                    Source: <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener noreferrer" className="underline hover:text-arven-magenta">EU AI Act (Official Journal)</a>
+                  <p className="text-sm text-arven-cyan mt-2">
+                    Source: <a href="https://eur-lex.europa.eu/" className="underline">EU AI Act (Official Journal)</a>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8">
+            <div className="bg-arven-bg/50 border border-arven-magenta/20 p-6">
               <div className="flex gap-4 mb-4">
-                <AlertCircle className="text-arven-red flex-shrink-0" size={24} />
+                <AlertCircle className="text-arven-red flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-montserrat font-bold mb-2">GDPR Enforcement is Serious</h3>
-                  <p className="text-arven-text-tertiary mb-2">
-                    Total GDPR fines in the EU reached €1.145 billion in 2025. Average fine for SMEs: €20K–€50K. Enterprise compliance solutions (OneTrust, TrustArc) cost €20,000+/year — out of reach for most SMEs.
+                  <h3 className="text-xl font-montserrat font-bold">
+                    GDPR Enforcement is Serious
+                  </h3>
+                  <p className="text-arven-text-tertiary mt-2">
+                    Total GDPR fines in the EU reached €1.145 billion in 2025. Average fine for SMEs: €20K–€50K. Enterprise compliance solutions (OneTrust, TrustArc) cost €30K+/year.
                   </p>
-                  <p className="text-sm text-arven-cyan">
-                    Source: <a href="https://www.edpb.eu/our-work/our-documents/annual-reports" target="_blank" rel="noopener noreferrer" className="underline hover:text-arven-magenta">EDPB Annual Report 2025</a>
+                  <p className="text-sm text-arven-cyan mt-2">
+                    Source: <a href="https://www.edpb.eu/" className="underline">EDPB Annual Report</a>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8">
+            <div className="bg-arven-bg/50 border border-arven-magenta/20 p-6">
               <div className="flex gap-4 mb-4">
-                <AlertCircle className="text-arven-red flex-shrink-0" size={24} />
+                <AlertCircle className="text-arven-red flex-shrink-0" />
                 <div>
-                  <h3 className="text-xl font-montserrat font-bold mb-2">The Problem with Manual Audits</h3>
-                  <p className="text-arven-text-tertiary">
-                    Compliance consultants are expensive and slow. ARVEN automates the initial assessment — no hiring external auditors until you know where the gaps are.
+                  <h3 className="text-xl font-montserrat font-bold">
+                    Compliance Consultants are Expensive
+                  </h3>
+                  <p className="text-arven-text-tertiary mt-2">
+                    Most compliance consultants charge €150–€500/hour. A basic audit takes 40–60 hours = €6K–€30K. Many SMEs can't justify the cost, so they skip compliance entirely and hope.
                   </p>
                 </div>
               </div>
-            <section className="section-gradient-3 py-20 px-4">
-
+            </div>
           </div>
         </div>
       </section>
+
       <div className="section-divider"></div>
 
-
-      className="section-gradient-3 py-20 px-4"
-
-      <section id="how-it-works" className="py-20 px-4">
+      {/* SECTION 3: HOW IT WORKS */}
+      <section id="how-it-works" className="section-gradient-3 py-20 px-4">
         <div className="container max-w-4xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-16 text-center">
+          <h2 className="text-4xl font-montserrat font-bold">
             How ARVEN PLATFORM Works
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
             {/* Module 1: EVALUATION */}
-            <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8 hover:border-arven-magenta/50 transition-all">
-              <div className="flex items-center justify-center w-12 h-12 bg-arven-magenta/20 rounded-lg mb-6">
-                <span className="text-2xl font-montserrat font-bold text-arven-magenta">1</span>
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <div className="flex items-center justify-center mb-4">
+                <span className="text-2xl font-montserrat font-bold">1</span>
               </div>
-              <h3 className="text-2xl font-montserrat font-bold mb-4">
+              <h3 className="text-2xl font-montserrat font-bold">
                 <span className="text-arven-cyan">EVALUATION</span>
               </h3>
-              <p className="text-arven-text-tertiary">
-                You provide basic information: company size, industry, AI tools used, privacy policy status.
+              <p className="text-arven-text-tertiary mt-4">
+                You provide basic information: company size, industry, data types, AI tools used, staff count, current compliance efforts.
               </p>
             </div>
 
             {/* Module 2: AUDIT */}
-            <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8 hover:border-arven-magenta/50 transition-all">
-              <div className="flex items-center justify-center w-12 h-12 bg-arven-magenta/20 rounded-lg mb-6">
-                <span className="text-2xl font-montserrat font-bold text-arven-magenta">2</span>
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <div className="flex items-center justify-center mb-4">
+                <span className="text-2xl font-montserrat font-bold">2</span>
               </div>
-              <h3 className="text-2xl font-montserrat font-bold mb-4">
+              <h3 className="text-2xl font-montserrat font-bold">
                 <span className="text-arven-cyan">AUDIT</span>
               </h3>
-              <p className="text-arven-text-tertiary">
-                Platform checks against 8 GDPR checkpoints (RoPA, legal basis, DPA with subprocessors, etc.) and EU AI Act risk classification.
+              <p className="text-arven-text-tertiary mt-4">
+                Platform checks against 8 GDPR checkpoints, 5 EU AI Act articles (50, 4, 37, 38, 40), and NIS2 baseline controls. Zero consultants involved.
               </p>
             </div>
 
             {/* Module 3: REMEDIATION */}
-            <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8 hover:border-arven-magenta/50 transition-all">
-              <div className="flex items-center justify-center w-12 h-12 bg-arven-magenta/20 rounded-lg mb-6">
-                <span className="text-2xl font-montserrat font-bold text-arven-magenta">3</span>
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <div className="flex items-center justify-center mb-4">
+                <span className="text-2xl font-montserrat font-bold">3</span>
               </div>
-              <h3 className="text-2xl font-montserrat font-bold mb-4">
+              <h3 className="text-2xl font-montserrat font-bold">
                 <span className="text-arven-cyan">REMEDIATION</span>
               </h3>
-              <p className="text-arven-text-tertiary">
-                Receive actionable report: specific gaps, priorities, and recommendations for fixing them.
+              <p className="text-arven-text-tertiary mt-4">
+                Receive actionable report: specific gaps, ranked by risk, with step-by-step remediation templates. Compliance roadmap included.
               </p>
             </div>
           </div>
 
           {/* Supported Frameworks */}
-          <div className="mt-16 bg-arven-darker/50 border border-arven-cyan/20 rounded-lg p-8">
-            <h3 className="text-2xl font-montserrat font-bold mb-6 text-arven-cyan">
+          <div className="mt-16 bg-arven-darker/50 border-l-4 border-arven-magenta p-8">
+            <h3 className="text-2xl font-montserrat font-bold">
               Supported Frameworks
             </h3>
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 gap-4 mt-8">
               <div className="flex items-center gap-3">
                 <CheckCircle size={20} className="text-arven-green" />
                 <span>GDPR (EU 2016/679)</span>
@@ -166,242 +166,241 @@ export default function Home() {
               <div className="flex items-center gap-3">
                 <CheckCircle size={20} className="text-arven-green" />
                 <span>NIS2 (Network Security)</span>
-              <section className="section-gradient-1 py-20 px-4">
-
+              </div>
               <div className="flex items-center gap-3">
                 <CheckCircle size={20} className="text-arven-green" />
                 <span>DORA (Digital Operational Resilience)</span>
               </div>
             </div>
           </div>
-        className="section-gradient-1 py-20 px-4"
-
+        </div>
       </section>
+
+      <div className="section-divider"></div>
 
       {/* SECTION 4: HONEST STATUS */}
-      <section id="status" className="py-20 px-4 bg-arven-darker/50">
-        <div className="container max-w-3xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-8 text-center">
+      <section id="status" className="section-gradient-1 py-20 px-4">
+        <div className="container max-w-4xl mx-auto">
+          <h2 className="text-4xl font-montserrat font-bold">
             We're at the Beginning —
-            <span className="block text-arven-cyan">And We're Honest About It</span>
+            <span className="block text-arven-cyan">And We're Transparent</span>
           </h2>
-<section className="section-gradient-4 py-20 px-4">
 
-          <div className="bg-arven-bg/50 border-l-4 border-arven-magenta rounded-lg p-8">
-            <p className="text-lg text-arven-text-secondary leading-relaxed mb-6">
-              ARVEN PLATFORM is in early development (TRL 1-2: research &amp; proof-of-concept). We're not launching a "production-ready" product. We're inviting first companies into a pilot program to test methodology, collect feedback, and build the final product based on real-world data.
+          <div className="bg-arven-bg/50 border border-arven-magenta/20 p-6 mt-8">
+            <p className="text-lg text-arven-text-secondary">
+              ARVEN PLATFORM is in early development (TRL 4 — validated platform). We're not "production-ready." We're honest about it.
             </p>
-            <p className="text-arven-text-tertiary">
-              If you're skeptical of "disruptive" claims — good. We are too. We'd rather be honest about where we are than oversell where we're going.
+            <p className="text-arven-text-tertiary mt-4">
+              If you're skeptical of "disruptive" AI claims — good. We don't use that language. We're building infrastructure for compliance, not hype.
             </p>
           </div>
-        className="section-gradient-4 py-20 px-4"
-
+        </div>
       </section>
 
+      <div className="section-divider"></div>
+
       {/* SECTION 5: PILOT PROGRAM */}
-      <section id="pilot-program" className="py-20 px-4">
-        <div className="container max-w-3xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-12 text-center">
+      <section id="pilot-program" className="section-gradient-4 py-20 px-4">
+        <div className="container max-w-4xl mx-auto">
+          <h2 className="text-4xl font-montserrat font-bold">
             Pilot Program
           </h2>
 
-          <div className="space-y-6">
-            <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8">
-              <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-magenta">
+          <div className="space-y-6 mt-12">
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <h3 className="text-2xl font-montserrat font-bold">
                 Why Join?
               </h3>
-              <ul className="space-y-3 text-arven-text-tertiary">
+              <ul className="space-y-3 text-arven-text-tertiary mt-4">
                 <li className="flex gap-3">
-                  <CheckCircle size={20} className="text-arven-green flex-shrink-0 mt-0.5" />
-                  <span>Free or heavily discounted audit in exchange for feedback</span>
+                  <CheckCircle size={20} className="text-arven-green flex-shrink-0" />
+                  <span>Free or heavily discounted audit in Q4 2026</span>
                 </li>
                 <li className="flex gap-3">
-                  <CheckCircle size={20} className="text-arven-green flex-shrink-0 mt-0.5" />
-                  <span>Shape the product — your input directly influences the final platform</span>
+                  <CheckCircle size={20} className="text-arven-green flex-shrink-0" />
+                  <span>Shape the product — your input directs development</span>
                 </li>
                 <li className="flex gap-3">
-                  <CheckCircle size={20} className="text-arven-green flex-shrink-0 mt-0.5" />
-                  <span>Get a compliance roadmap before anyone else</span>
+                  <CheckCircle size={20} className="text-arven-green flex-shrink-0" />
+                  <span>Get a compliance roadmap before any competitor</span>
                 </li>
                 <li className="flex gap-3">
-                  <CheckCircle size={20} className="text-arven-green flex-shrink-0 mt-0.5" />
+                  <CheckCircle size={20} className="text-arven-green flex-shrink-0" />
                   <span>Preferential pricing when we launch</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-arven-darker/50 border border-arven-cyan/20 rounded-lg p-8">
-              <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-cyan">
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <h3 className="text-2xl font-montserrat font-bold">
                 What We Ask
               </h3>
-              <ul className="space-y-3 text-arven-text-tertiary">
-                <li>Honest feedback on the audit process and results</li>
-                <li>Permission to use anonymized findings in case studies (we ask, you decide)</li>
+              <ul className="space-y-3 text-arven-text-tertiary mt-4">
+                <li>Honest feedback on the audit process and report clarity</li>
+                <li>Permission to use anonymized findings in case studies</li>
                 <li>30 min feedback call after receiving your report</li>
               </ul>
             </div>
-<section className="section-gradient-2 py-20 px-4">
 
-            <div className="bg-arven-darker/50 border border-arven-green/20 rounded-lg p-8">
-              <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-green">
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <h3 className="text-2xl font-montserrat font-bold">
                 Timeline
               </h3>
-              <p className="text-arven-text-tertiary mb-4">
-                Pilot phases: Q4 2026 (first 10 companies) → Q1 2027 (next 25) → Q2 2027 (scale to 100+).
+              <p className="text-arven-text-tertiary mt-4">
+                Pilot phases: Q4 2026 (first 10 companies)
               </p>
-              <p className="text-sm text-arven-text-tertiary italic">
-                We're transparent about delays, learnings, and changes as we go.
+              <p className="text-sm text-arven-cyan mt-2">
+                We're transparent about delays, learnings, and roadmap changes.
               </p>
             </div>
-          className="section-gradient-2 py-20 px-4"
-
-        </div>
-      </section>
-        <div className="section-divider"></div>
-
-
-      {/* SECTION 6: ABOUT */}
-      <section id="about" className="py-20 px-4 bg-arven-darker/50">
-        <div className="container max-w-3xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-8 text-center">
-            About ARVEN
-          </h2>
-<section className="section-gradient-3 py-20 px-4">
-
-          <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8">
-            <p className="text-lg text-arven-text-secondary mb-6">
-              ARVEN PLATFORM is developed by a team with expertise in AI engineering, GDPR consulting, and B2B product development.
-            </p>
-            <p className="text-arven-text-tertiary mb-4">
-              We built this because we saw the gap: large enterprises have compliance teams and expensive tools. SMEs are left either paying too much for consultants or ignoring regulations until a problem occurs.
-            </p>
-            <p className="text-arven-text-tertiary">
-              Our goal: make compliance automation accessible, honest, and actually useful for companies our size.
-            className="section-gradient-3 py-20 px-4"
-
           </div>
         </div>
       </section>
-        <div className="section-divider"></div>
 
+      <div className="section-divider"></div>
+
+      {/* SECTION 6: ABOUT */}
+      <section id="about" className="section-gradient-2 py-20 px-4">
+        <div className="container max-w-4xl mx-auto">
+          <h2 className="text-4xl font-montserrat font-bold">
+            About ARVEN
+          </h2>
+
+          <div className="bg-arven-bg/50 border border-arven-magenta/20 p-6 mt-8">
+            <p className="text-lg text-arven-text-secondary">
+              ARVEN PLATFORM is developed by a team with experience in compliance infrastructure, EU policy, and autonomous systems. We built this because we saw the gap: large consultancies charge too much; DIY compliance tools are scattered and unreliable.
+            </p>
+            <p className="text-arven-text-tertiary mt-4">
+              We built this because we saw the gap: large consultancies charge too much; DIY compliance tools are scattered and unreliable.
+            </p>
+            <p className="text-arven-text-tertiary mt-4">
+              Our goal: make compliance automation accessible to SMEs.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider"></div>
 
       {/* SECTION 7: PARTNERS */}
-      <section id="partners" className="py-20 px-4">
-        <div className="container max-w-3xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-12 text-center">
+      <section id="partners" className="section-gradient-3 py-20 px-4">
+        <div className="container max-w-4xl mx-auto">
+          <h2 className="text-4xl font-montserrat font-bold">
             Partners
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mt-12">
             {/* COVENT TECH */}
-            <div className="bg-arven-darker/50 border border-arven-cyan/20 rounded-lg p-8">
-              <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-cyan">
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <h3 className="text-2xl font-montserrat font-bold">
                 COVENT TECH
               </h3>
-              <p className="text-arven-text-tertiary mb-4">
-                Poland-based partner driving European market expansion and operational delivery.
+              <p className="text-arven-text-tertiary mb-4 mt-2">
+                Poland-based partner driving European market development and commercial licensing
               </p>
               <p className="text-sm text-arven-text-tertiary">
                 <strong>Contact:</strong> Igor Melnyk
               </p>
             </div>
-<section className="section-gradient-4 py-20 px-4">
 
             {/* INTITA */}
-            <div className="bg-arven-darker/50 border border-arven-magenta/20 rounded-lg p-8">
-              <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-magenta">
+            <div className="bg-arven-darker/50 border border-arven-magenta/20 p-6">
+              <h3 className="text-2xl font-montserrat font-bold">
                 INTITA — Vinnytsia Technological University
               </h3>
-              <p className="text-arven-text-tertiary mb-4">
-                Research partner providing methodology validation and scientific rigor.
+              <p className="text-arven-text-tertiary mb-4 mt-2">
+                Research partner providing methodology validation and academic rigor
               </p>
               <p className="text-sm text-arven-text-tertiary">
                 <strong>Contact:</strong> Roman Melnyk, Rector
-              className="section-gradient-4 py-20 px-4"
-
+              </p>
             </div>
           </div>
         </div>
       </section>
-        <div className="section-divider"></div>
 
+      <div className="section-divider"></div>
 
       {/* SECTION 8: CTA + CONTACT */}
-      <section id="contact" className="py-20 px-4 bg-arven-darker/50">
-        <div className="container max-w-3xl mx-auto">
-          <h2 className="text-4xl font-montserrat font-bold mb-12 text-center">
+      <section id="contact" className="section-gradient-4 py-20 px-4">
+        <div className="container max-w-4xl mx-auto">
+          <h2 className="text-4xl font-montserrat font-bold">
             Ready to Assess Your Compliance?
           </h2>
 
-          <div className="bg-arven-bg/50 border border-arven-magenta/20 rounded-lg p-8 mb-8">
+          <div className="bg-arven-bg/50 border border-arven-magenta/20 p-8 mt-8">
             <form className="space-y-6">
               <div>
-                <label className="block text-sm font-montserrat font-semibold mb-2">
+                <label className="block text-sm font-montserrat mb-2">
                   Company Name
                 </label>
                 <input
                   type="text"
                   placeholder="Your company"
-                  className="w-full"
+                  className="w-full px-4 py-2 bg-arven-bg border border-arven-magenta/30 text-white placeholder:text-arven-text-tertiary focus:outline-none focus:border-arven-magenta"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-montserrat font-semibold mb-2">
+                <label className="block text-sm font-montserrat mb-2">
                   Email
                 </label>
                 <input
                   type="email"
                   placeholder="you@company.com"
-                  className="w-full"
+                  className="w-full px-4 py-2 bg-arven-bg border border-arven-magenta/30 text-white placeholder:text-arven-text-tertiary focus:outline-none focus:border-arven-magenta"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-montserrat font-semibold mb-2">
+                <label className="block text-sm font-montserrat mb-2">
                   Message
                 </label>
                 <textarea
-                  placeholder="Tell us about your business and compliance questions"
+                  placeholder="Tell us about your business"
                   rows={5}
-                  className="w-full"
+                  className="w-full px-4 py-2 bg-arven-bg border border-arven-magenta/30 text-white placeholder:text-arven-text-tertiary focus:outline-none focus:border-arven-magenta"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full px-6 py-4 bg-arven-magenta text-arven-bg font-montserrat font-semibold rounded-lg hover:bg-arven-cyan hover:text-arven-bg transition-all"
+                className="w-full px-6 py-4 bg-arven-magenta text-white font-montserrat font-bold hover:opacity-90"
               >
                 Request Pilot Audit
               </button>
             </form>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6 text-center">
+          <div className="grid md:grid-cols-3 gap-6 text-center mt-12">
             <div>
-              <p className="text-sm text-arven-text-tertiary mb-2">Email</p>
-              <a href="mailto:hello@arvend.io" className="text-arven-magenta font-montserrat font-semibold hover:text-arven-cyan transition-colors">
-                hello@arvend.io
-              </a>
+              <p className="text-sm text-arven-text-tertiary">
+                <a href="mailto:hello@arvend.io" className="text-arven-magenta hover:underline">
+                  hello@arvend.io
+                </a>
+              </p>
             </div>
+
             <div>
-              <p className="text-sm text-arven-text-tertiary mb-2">Phone</p>
-              <a href="tel:+380954763406" className="text-arven-magenta font-montserrat font-semibold hover:text-arven-cyan transition-colors">
-                +380 (95) 476-34-06
-              </a>
+              <p className="text-sm text-arven-text-tertiary">
+                <a href="tel:+380954763406" className="text-arven-magenta hover:underline">
+                  +380 (95) 476-34-06
+                </a>
+              </p>
             </div>
+
             <div>
-              <p className="text-sm text-arven-text-tertiary mb-2">Telegram</p>
-              <a href="https://t.me/arven_agency" target="_blank" rel="noopener noreferrer" className="text-arven-magenta font-montserrat font-semibold hover:text-arven-cyan transition-colors">
-                @arven_agency
-              </a>
+              <p className="text-sm text-arven-text-tertiary">
+                <a href="https://t.me/arven_agency" target="_blank" className="text-arven-magenta hover:underline">
+                  @arven_agency
+                </a>
+              </p>
             </div>
           </div>
         </div>
       </section>
-        <div className="section-divider"></div>
 
+      <div className="section-divider"></div>
 
       <Footer />
     </div>
