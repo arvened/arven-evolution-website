@@ -33,6 +33,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+    
+    <div className="section-divider"></div>
+
 
       className="section-gradient-2 py-20 px-4"
 
@@ -88,6 +91,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="section-divider"></div>
+
 
       className="section-gradient-3 py-20 px-4"
 
@@ -248,6 +253,8 @@ export default function Home() {
 
         </div>
       </section>
+        <div className="section-divider"></div>
+
 
       {/* SECTION 6: ABOUT */}
       <section id="about" className="py-20 px-4 bg-arven-darker/50">
@@ -270,6 +277,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+        <div className="section-divider"></div>
+
 
       {/* SECTION 7: PARTNERS */}
       <section id="partners" className="py-20 px-4">
@@ -308,6 +317,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+        <div className="section-divider"></div>
+
 
       {/* SECTION 8: CTA + CONTACT */}
       <section id="contact" className="py-20 px-4 bg-arven-darker/50">
