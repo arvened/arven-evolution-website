@@ -27,7 +27,7 @@ const config: Config = {
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-in-out',
-        'slide-up': 'slideUp 0.6s ease-out',
+        'slide-up': 'slideUp 0.8s ease-out',
         'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
       },
       keyframes: {
@@ -40,9 +40,9 @@ const config: Config = {
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         pulseGlow: {
-          '0%': { 'box-shadow': '0 0 20px rgba(217, 70, 239, 0.4)' },
+          '0%': { 'box-shadow': '0 0 20px rgba(217, 70, 239, 0.3)' },
           '50%': { 'box-shadow': '0 0 40px rgba(217, 70, 239, 0.6)' },
-          '100%': { 'box-shadow': '0 0 20px rgba(217, 70, 239, 0.4)' },
+          '100%': { 'box-shadow': '0 0 20px rgba(217, 70, 239, 0.3)' },
         },
       },
     },
@@ -51,3 +51,4 @@ const config: Config = {
 }
 
 export default config
+
