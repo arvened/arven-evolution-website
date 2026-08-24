@@ -1,10 +1,13 @@
+
 'use client'
 
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 export default function Navigation() {
+  const t = useTranslations('nav')
   const [mobileOpen, setMobileOpen] = useState(false)
 
   return (
@@ -18,22 +21,22 @@ export default function Navigation() {
 
         <div className="hidden md:flex items-center gap-8">
           <Link href="#how-it-works" className="text-arven-text-secondary hover:text-arven-cyan transition">
-            How it works
+            {t('howItWorks')}
           </Link>
           <Link href="#pilot-program" className="text-arven-text-secondary hover:text-arven-cyan transition">
-            Pilot Program
+            {t('pilotProgram')}
           </Link>
           <Link href="#about" className="text-arven-text-secondary hover:text-arven-cyan transition">
-            About
+            {t('about')}
           </Link>
           <Link href="#partners" className="text-arven-text-secondary hover:text-arven-cyan transition">
-            Partners
+            {t('partners')}
           </Link>
           <Link href="#contact" className="text-arven-text-secondary hover:text-arven-cyan transition">
-            Contact
+            {t('contact')}
           </Link>
           <a href="#contact" className="px-6 py-2 bg-arven-magenta text-white rounded-lg hover:bg-opacity-80 transition">
-            Get Pilot Audit
+            {t('getAudit')}
           </a>
         </div>
 
@@ -46,22 +49,22 @@ export default function Navigation() {
         <div className="md:hidden bg-arven-darker/50 border-t border-arven-magenta/20">
           <div className="container flex flex-col gap-4 py-4">
             <Link href="#how-it-works" className="text-arven-text-secondary hover:text-arven-cyan transition">
-              How it works
+              {t('howItWorks')}
             </Link>
             <Link href="#pilot-program" className="text-arven-text-secondary hover:text-arven-cyan transition">
-              Pilot Program
+              {t('pilotProgram')}
             </Link>
             <Link href="#about" className="text-arven-text-secondary hover:text-arven-cyan transition">
-              About
+              {t('about')}
             </Link>
             <Link href="#partners" className="text-arven-text-secondary hover:text-arven-cyan transition">
-              Partners
+              {t('partners')}
             </Link>
             <Link href="#contact" className="text-arven-text-secondary hover:text-arven-cyan transition">
-              Contact
+              {t('contact')}
             </Link>
             <a href="#contact" className="px-6 py-2 bg-arven-magenta text-white rounded-lg hover:bg-opacity-80 transition">
-              Get Pilot Audit
+              {t('getAudit')}
             </a>
           </div>
         </div>
@@ -69,4 +72,3 @@ export default function Navigation() {
     </nav>
   )
 }
-
