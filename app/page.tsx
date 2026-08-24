@@ -1,9 +1,8 @@
-
 'use client'
 
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { CheckCircle, AlertCircle, BarChart3, Lightbulb, Shield, Zap, Lock, Eye, Code } from 'lucide-react'
+import { CheckCircle, AlertCircle, BarChart3, Lightbulb, Shield, Zap, Lock, Eye, Code, Calendar } from 'lucide-react'
 
 export default function Home() {
   return (
@@ -55,7 +54,7 @@ export default function Home() {
                     Since August 2026, EU AI Act Article 4 requires documented compliance for high-risk systems.
                   </p>
                   <p className="text-sm text-arven-text-tertiary">
-                    📋 <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1689" className="text-arven-cyan hover:underline font-semibold">EUR-Lex 2024/1689</a>
+                    <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1689" className="text-arven-cyan hover:underline font-semibold">EUR-Lex 2024/1689</a>
                   </p>
                 </div>
               </div>
@@ -72,7 +71,7 @@ export default function Home() {
                     <strong>€4B+</strong> in fines (2024) · <strong>€8–12M</strong> average penalty per case
                   </p>
                   <p className="text-sm text-arven-text-tertiary">
-                    📊 <a href="https://www.edpb.europa.eu/" className="text-arven-cyan hover:underline font-semibold">EDPB Annual Report 2025</a>
+                    <a href="https://www.edpb.europa.eu/" className="text-arven-cyan hover:underline font-semibold">EDPB Annual Report 2025</a>
                   </p>
                 </div>
               </div>
@@ -290,16 +289,19 @@ export default function Home() {
 
           {/* Timeline */}
           <div className="bg-gradient-to-r from-arven-cyan/10 to-transparent border-l-4 border-arven-cyan rounded-lg p-8">
-            <h3 className="text-2xl font-montserrat font-bold mb-4 text-arven-cyan">
-              📅 Timeline
-            </h3>
+            <div className="flex items-center gap-3 mb-4">
+              <Calendar className="text-arven-cyan" size={24} />
+              <h3 className="text-2xl font-montserrat font-bold text-arven-cyan">
+                Timeline
+              </h3>
+            </div>
             <div className="space-y-2 text-arven-text-secondary text-lg">
               <p><strong>Q4 2026:</strong> First 10 companies</p>
               <p><strong>Q1 2027:</strong> 30 companies</p>
               <p><strong>Q2 2027:</strong> General Availability</p>
             </div>
             <p className="text-sm text-arven-text-tertiary mt-4 pt-4 border-t border-arven-cyan/20">
-              💬 We're transparent about delays. Blockers: NIS2 test data, multi-language reports.
+              We're transparent about delays. Blockers: NIS2 test data, multi-language reports.
             </p>
           </div>
         </div>
@@ -454,4 +456,5 @@ export default function Home() {
     </div>
   )
 }
+
 
