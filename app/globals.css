@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /* Gold Glow Effect */
 .text-gold-glow {
   font-weight: 300;
