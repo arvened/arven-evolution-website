@@ -6,5 +6,98 @@
     "partners": "Partners",
     "contact": "Contact",
     "getAudit": "Get Pilot Audit"
+  },
+  "hero": {
+    "subtitle": "Automated compliance assessment for regulated EU industries. No fluff. Just audit intelligence.",
+    "cta_primary": "Get Pilot Audit",
+    "cta_secondary": "Learn More"
+  },
+  "why": {
+    "title": "Why This Matters",
+    "ai_act_title": "EU AI Act Requirements",
+    "ai_act_desc": "Since August 2026, EU AI Act Article 4 requires documented compliance for high-risk systems.",
+    "ai_act_source": "EUR-Lex 2024/1689",
+    "gdpr_title": "GDPR Enforcement is Serious",
+    "gdpr_desc": "€4B+ in fines (2024) · €8–12M average penalty per case",
+    "gdpr_source": "EDPB Annual Report 2025",
+    "expensive_title": "Compliance Consultants are Expensive",
+    "expensive_desc": "€150–500/hour · €20K–80K per audit. We cost 90% less."
+  },
+  "how": {
+    "title": "How ARVEN PLATFORM Works",
+    "step1_title": "EVALUATION",
+    "step1_desc": "You provide basic information: company size, data flows, AI systems deployed, current controls.",
+    "step2_title": "AUDIT",
+    "step2_desc": "Platform checks: 8 GDPR criteria · 7 EU AI Act markers · 5 risk categories",
+    "step3_title": "REMEDIATION",
+    "step3_desc": "Actionable report: violations · remediation steps · compliance roadmap.",
+    "frameworks_title": "Supported Frameworks",
+    "gdpr_law": "GDPR",
+    "gdpr_law_desc": "EU 2016/679",
+    "ai_act_law": "EU AI Act",
+    "ai_act_law_desc": "EU 2024/1689",
+    "dsa": "DSA",
+    "dsa_desc": "Digital Services Act",
+    "nis2": "NIS2",
+    "nis2_desc": "Network Security",
+    "dora": "DORA",
+    "dora_desc": "Digital Operational Resilience"
+  },
+  "status": {
+    "title": "We're at the Beginning",
+    "text1": "ARVEN PLATFORM is in early development. We're shipping a pilot version Q4 2026.",
+    "text2": "If you're skeptical of \"disruptive AI\" claims: fair. We're building compliance tools, not disruption mythology. Real companies piloting with us are seeing 40–60% faster audit cycles and 70% lower cost per assessment."
+  },
+  "pilot": {
+    "title": "Pilot Program",
+    "why_join_title": "Why Join?",
+    "join1_title": "Free audit",
+    "join1_desc": "€500–2K vs €20K+",
+    "join2_title": "Shape product",
+    "join2_desc": "Your feedback drives dev",
+    "join3_title": "Roadmap",
+    "join3_desc": "Compliance strategy",
+    "join4_title": "Preferential pricing",
+    "join4_desc": "When GA launches",
+    "ask_title": "What We Ask",
+    "ask1_title": "Honest feedback",
+    "ask1_desc": "On audit report",
+    "ask2_title": "Case study rights",
+    "ask2_desc": "Anonymized findings",
+    "ask3_title": "Feedback call",
+    "ask3_desc": "30 min after report",
+    "timeline_title": "Timeline",
+    "timeline_q4": "Q4 2026:",
+    "timeline_q4_desc": "First 10 companies",
+    "timeline_q1": "Q1 2027:",
+    "timeline_q1_desc": "30 companies",
+    "timeline_q2": "Q2 2027:",
+    "timeline_q2_desc": "General Availability",
+    "transparency": "We're transparent about delays. Blockers: NIS2 test data, multi-language reports."
+  },
+  "about": {
+    "title": "About ARVEN",
+    "p1": "ARVEN PLATFORM is developed by a team of compliance engineers, lawyers, and security researchers in Ukraine & Poland.",
+    "p2": "We built this because we saw the gap: compliance is a solved problem (checklists, frameworks exist), but manual audits are expensive and slow. Most companies default to: ignore until regulator knocks.",
+    "p3": "Our goal: make compliance automated, affordable, and honest. Not sell fear or \"full-stack AI magic.\" Just faster, cheaper audits backed by real frameworks and verified sources."
+  },
+  "partners": {
+    "title": "Partners",
+    "covent_title": "COVENT TECH",
+    "covent_desc": "Poland-based partner driving European compliance & go-to-market strategy.",
+    "covent_contact": "Contact: Igor Melnyk (CEO, KRS: 0001107554)",
+    "intita_title": "INTITA – Vinnytsia Technological University",
+    "intita_desc": "Research partner providing methodology validation and academic rigor.",
+    "intita_contact": "Contact: Roman Melnyk (Rector)"
+  },
+  "cta": {
+    "title": "Ready to Assess Your Compliance?",
+    "company_label": "Company Name",
+    "company_placeholder": "Your company",
+    "email_label": "Email",
+    "email_placeholder": "you@company.com",
+    "message_label": "Message",
+    "message_placeholder": "Tell us about you company, current compliance status, and what you'd like to audit",
+    "submit_button": "Request Pilot Audit"
   }
 }
