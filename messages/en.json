@@ -99,5 +99,20 @@
     "message_label": "Message",
     "message_placeholder": "Tell us about you company, current compliance status, and what you'd like to audit",
     "submit_button": "Request Pilot Audit"
+  },
+  "footer": {
+    "brand_desc": "GDPR & EU AI Act compliance automation for European SMEs.",
+    "brand_status": "Early stage. Pilot program. Honest progress.",
+    "product": "Product",
+    "how_it_works": "How it works",
+    "pilot_program": "Pilot Program",
+    "project_status": "Project Status",
+    "company": "Company",
+    "about": "About",
+    "partners": "Partners",
+    "contact": "Contact",
+    "get_in_touch": "Get in Touch",
+    "rights_reserved": "All rights reserved.",
+    "early_stage_notice": "Early-stage project. Currently in pilot phase. Opinions subject to change."
   }
 }
