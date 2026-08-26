@@ -6,6 +6,7 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import "../globals.css"
 
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: "ARVEN Platform - Compliance Automation",
   description: "GDPR & EU AI Act compliance for SMEs",
