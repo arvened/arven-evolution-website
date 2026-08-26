@@ -1,7 +1,35 @@
+{/* Social Links */}
+          <div className="flex justify-center gap-6 mb-8">
+            <a
+              href="https://linkedin.com/in/eduard-arbitman"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-arven-text-tertiary hover:text-arven-magenta transition-colors"
+            >
+              <Linkedin size={20} />
+            </a>
+          </div>
+
+          {/* Copyright */}
+          <div className="text-center text-arven-text-tertiary text-sm">
+            <p>&copy; {currentYear} ARVEN PLATFORM. {t('rights_reserved')}</p>
+            <p className="mt-2 text-xs">
+              {t('early_stage_notice')}
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
+'use client'
+
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import { Mail, Phone, MapPin, Linkedin, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
+  const t = useTranslations('footer')
   const currentYear = new Date().getFullYear()
 
   return (
@@ -14,32 +42,32 @@ export default function Footer() {
               ARVEN PLATFORM
             </div>
             <p className="text-arven-text-tertiary text-sm">
-              GDPR & EU AI Act compliance automation for European SMEs.
+              {t('brand_desc')}
             </p>
             <p className="text-arven-text-tertiary text-xs mt-3">
-              Early stage. Pilot program. Honest progress.
+              {t('brand_status')}
             </p>
           </div>
 
           {/* Product */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
-              Product
+              {t('product')}
             </h4>
             <ul className="space-y-2">
               <li>
                 <a href="#how-it-works" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  How it works
+                  {t('how_it_works')}
                 </a>
               </li>
               <li>
                 <a href="#pilot-program" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  Pilot Program
+                  {t('pilot_program')}
                 </a>
               </li>
               <li>
                 <a href="#status" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  Project Status
+                  {t('project_status')}
                 </a>
               </li>
             </ul>
@@ -48,22 +76,22 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
-              Company
+              {t('company')}
             </h4>
             <ul className="space-y-2">
               <li>
                 <a href="#about" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  About
+                  {t('about')}
                 </a>
               </li>
               <li>
                 <a href="#partners" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  Partners
+                  {t('partners')}
                 </a>
               </li>
               <li>
                 <a href="#contact" className="text-arven-text-tertiary hover:text-arven-magenta transition-colors">
-                  Contact
+                  {t('contact')}
                 </a>
               </li>
             </ul>
@@ -72,7 +100,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
-              Get in Touch
+              {t('get_in_touch')}
             </h4>
             <ul className="space-y-3 text-sm">
               <li className="flex items-center gap-2 text-arven-text-tertiary">
@@ -99,27 +127,3 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-arven-magenta/10 pt-8">
-          {/* Social Links */}
-          <div className="flex justify-center gap-6 mb-8">
-            <a
-              href="https://linkedin.com/in/eduard-arbitman"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-arven-text-tertiary hover:text-arven-magenta transition-colors"
-            >
-              <Linkedin size={20} />
-            </a>
-          </div>
-
-          {/* Copyright */}
-          <div className="text-center text-arven-text-tertiary text-sm">
-            <p>&copy; {currentYear} ARVEN PLATFORM. All rights reserved.</p>
-            <p className="mt-2 text-xs">
-              Early-stage project. Currently in pilot phase. Opinions subject to change.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-  )
-}
