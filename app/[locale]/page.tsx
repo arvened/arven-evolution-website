@@ -1,5 +1,3 @@
-
-  
 'use client'
 
 import { useTranslations } from 'next-intl'
@@ -84,8 +82,7 @@ export default function Home() {
                   <Shield className="text-arven-cyan" size={32} />
                 </div>
                 <div className="flex-grow">
-                  <h3 className="text-2xl font-montserrat font-bold mb-3 text-white">{t('why.
-                   expensive_title')}</h3>
+                  <h3 className="text-2xl font-montserrat font-bold mb-3 text-white">{t('why.expensive_title')}</h3>
                   <p className="text-arven-text-secondary text-lg leading-relaxed">
                     {t('why.expensive_desc')}
                   </p>
@@ -157,7 +154,7 @@ export default function Home() {
               </div>
               <div className="flex items-start gap-4 p-3 rounded bg-arven-darker/40 border border-arven-green/20">
                 <CheckCircle size={24} className="text-arven-green flex-shrink-0 mt-1" />
-                <div> 
+                <div>
                   <div className="font-semibold">{t('how.ai_act_law')}</div>
                   <div className="text-xs text-arven-text-tertiary">{t('how.ai_act_law_desc')}</div>
                 </div>
@@ -447,3 +444,4 @@ export default function Home() {
     </div>
   )
 }
+
