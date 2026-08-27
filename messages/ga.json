@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Conas a oibríonn sé",
+    "pilotProgram": "Clár Phíolóta",
+    "about": "Eolas",
+    "partners": "Comhpháirtithe",
+    "contact": "Teagmháil",
+    "getAudit": "Faigh Iniúchta Píolóta"
+  },
+  "hero": {
+    "subtitle": "Measúnú um chostas an bhreiseadh athurigthe do thionscail rialaithe an AE.",
+    "cta_primary": "Faigh Iniúchta Píolóta",
+    "cta_secondary": "Foghlaim níos mó"
+  },
+  "footer": {
+    "brand_desc": "Uathoibriú chostas GDPR agus Dhlí AI an AE.",
+    "brand_status": "Céim dhúshlánaighe. Clár píolóta.",
+    "product": "Toradh",
+    "how_it_works": "Conas a oibríonn sé",
+    "pilot_program": "Clár Phíolóta",
+    "project_status": "Stádas an Tionscadal",
+    "company": "Cuideachta",
+    "about": "Eolas",
+    "partners": "Comhpháirtithe",
+    "contact": "Teagmháil",
+    "get_in_touch": "Cuir i dteagmháil linn",
+    "rights_reserved": "Gach ceart ar cosaint.",
+    "early_stage_notice": "Tionscadal i gcéim dhúshlánaighe."
+  }
+}
