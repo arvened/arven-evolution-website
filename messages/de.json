@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Wie es funktioniert",
+    "pilotProgram": "Pilotprogramm",
+    "about": "Über uns",
+    "partners": "Partner",
+    "contact": "Kontakt",
+    "getAudit": "Pilotaudits erhalten"
+  },
+  "hero": {
+    "subtitle": "Automatisierte Compliance-Bewertung für regulierte EU-Industrien.",
+    "cta_primary": "Pilotaudits erhalten",
+    "cta_secondary": "Mehr erfahren"
+  },
+  "footer": {
+    "brand_desc": "Automatisierung von GDPR- und EU AI Act-Compliance.",
+    "brand_status": "Frühes Stadium. Pilotprogramm.",
+    "product": "Produkt",
+    "how_it_works": "Wie es funktioniert",
+    "pilot_program": "Pilotprogramm",
+    "project_status": "Projektstatus",
+    "company": "Unternehmen",
+    "about": "Über uns",
+    "partners": "Partner",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontaktieren Sie uns",
+    "rights_reserved": "Alle Rechte vorbehalten.",
+    "early_stage_notice": "Projekt in frühem Stadium."
+  }
+}
