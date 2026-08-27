@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Hoe het werkt",
+    "pilotProgram": "Pilotprogramma",
+    "about": "Over ons",
+    "partners": "Partners",
+    "contact": "Contact",
+    "getAudit": "Krijg pilotaudit"
+  },
+  "hero": {
+    "subtitle": "Geautomatiseerde compliance-evaluatie voor gereglementeerde EU-industrieën.",
+    "cta_primary": "Krijg pilotaudit",
+    "cta_secondary": "Meer informatie"
+  },
+  "footer": {
+    "brand_desc": "Automatisering van GDPR- en EU AI Act-compliance.",
+    "brand_status": "Vroeg stadium. Pilotprogramma.",
+    "product": "Product",
+    "how_it_works": "Hoe het werkt",
+    "pilot_program": "Pilotprogramma",
+    "project_status": "Projectstatus",
+    "company": "Bedrijf",
+    "about": "Over ons",
+    "partners": "Partners",
+    "contact": "Contact",
+    "get_in_touch": "Neem contact op",
+    "rights_reserved": "Alle rechten voorbehouden.",
+    "early_stage_notice": "Project in vroeg stadium."
+  }
+}
