@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Sådan fungerer det",
+    "pilotProgram": "Pilotprogram",
+    "about": "Om os",
+    "partners": "Partnere",
+    "contact": "Kontakt",
+    "getAudit": "Få pilotrevision"
+  },
+  "hero": {
+    "subtitle": "Automatiseret compliance-vurdering for regulerede EU-industrier.",
+    "cta_primary": "Få pilotrevision",
+    "cta_secondary": "Lær mere"
+  },
+  "footer": {
+    "brand_desc": "Automatisering af GDPR- og EU AI Act-compliance.",
+    "brand_status": "Tidlig fase. Pilotprogram.",
+    "product": "Produkt",
+    "how_it_works": "Sådan fungerer det",
+    "pilot_program": "Pilotprogram",
+    "project_status": "Projektstatus",
+    "company": "Virksomhed",
+    "about": "Om os",
+    "partners": "Partnere",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontakt os",
+    "rights_reserved": "Alle rettigheder forbeholdt.",
+    "early_stage_notice": "Projekt i tidlig fase."
+  }
+}
