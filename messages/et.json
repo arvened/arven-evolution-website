@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kuidas see töötab",
+    "pilotProgram": "Pilootprogramm",
+    "about": "Meist",
+    "partners": "Partnerid",
+    "contact": "Kontakt",
+    "getAudit": "Saa pilootaudit"
+  },
+  "hero": {
+    "subtitle": "Automatiseeritud nõuetele vastavuse hindamine reguleeritud EL-i tööstustele.",
+    "cta_primary": "Saa pilootaudit",
+    "cta_secondary": "Lisateave"
+  },
+  "footer": {
+    "brand_desc": "GDPR ja EL AI akti nõuetele vastavuse automatiseerimine.",
+    "brand_status": "Varane etapp. Pilootprogramm.",
+    "product": "Toode",
+    "how_it_works": "Kuidas see töötab",
+    "pilot_program": "Pilootprogramm",
+    "project_status": "Projekti olek",
+    "company": "Ettevõte",
+    "about": "Meist",
+    "partners": "Partnerid",
+    "contact": "Kontakt",
+    "get_in_touch": "Võta meiega ühendust",
+    "rights_reserved": "Kõik õigused on kaitstud.",
+    "early_stage_notice": "Projekt varasel etapil."
+  }
+}
