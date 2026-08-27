@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kif taħdem",
+    "pilotProgram": "Programm Pilota",
+    "about": "Dwarrina",
+    "partners": "Sħab",
+    "contact": "Kuntatt",
+    "getAudit": "Ħasil Awdit Pilota"
+  },
+  "hero": {
+    "subtitle": "Valutazzjoni awtomatizzata tal-konformità għall-industriji rregolati tal-UE.",
+    "cta_primary": "Ħasil Awdit Pilota",
+    "cta_secondary": "Tgħallem aktar"
+  },
+  "footer": {
+    "brand_desc": "Awtomatizzazzjoni tal-konformità GDPR u Liġi AI tal-UE.",
+    "brand_status": "Stadju kmieni. Programm pilota.",
+    "product": "Prodott",
+    "how_it_works": "Kif taħdem",
+    "pilot_program": "Programm Pilota",
+    "project_status": "Status tal-Proġett",
+    "company": "Kumpanija",
+    "about": "Dwarrina",
+    "partners": "Sħab",
+    "contact": "Kuntatt",
+    "get_in_touch": "Kuntattjana",
+    "rights_reserved": "Ir-rigward kollha riservati.",
+    "early_stage_notice": "Proġett fi stadju kmieni."
+  }
+}
