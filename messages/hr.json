@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kako radi",
+    "pilotProgram": "Pilot Program",
+    "about": "O nama",
+    "partners": "Partneri",
+    "contact": "Kontakt",
+    "getAudit": "Dobij Pilot Audit"
+  },
+  "hero": {
+    "subtitle": "Automatizirani pregled usklađenosti za regulirane industrije EU.",
+    "cta_primary": "Dobij Pilot Audit",
+    "cta_secondary": "Saznaj više"
+  },
+  "footer": {
+    "brand_desc": "Automatizacija usklađenosti GDPR i EU AI Act.",
+    "brand_status": "Rana faza. Pilot program.",
+    "product": "Proizvod",
+    "how_it_works": "Kako radi",
+    "pilot_program": "Pilot Program",
+    "project_status": "Status Projekta",
+    "company": "Kompanija",
+    "about": "O nama",
+    "partners": "Partneri",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontaktiraj nas",
+    "rights_reserved": "Sva prava zadržana.",
+    "early_stage_notice": "Projekt u ranoj fazi."
+  }
+}
