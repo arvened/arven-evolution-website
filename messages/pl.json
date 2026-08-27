@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Jak to działa",
+    "pilotProgram": "Program pilotażowy",
+    "about": "O nas",
+    "partners": "Partnerzy",
+    "contact": "Kontakt",
+    "getAudit": "Uzyskaj audyt pilotażowy"
+  },
+  "hero": {
+    "subtitle": "Zautomatyzowana ocena zgodności dla regulowanych gałęzi przemysłu UE.",
+    "cta_primary": "Uzyskaj audyt pilotażowy",
+    "cta_secondary": "Dowiedz się więcej"
+  },
+  "footer": {
+    "brand_desc": "Automatyzacja zgodności GDPR i ustawy AI UE.",
+    "brand_status": "Wczesny etap. Program pilotażowy.",
+    "product": "Produkt",
+    "how_it_works": "Jak to działa",
+    "pilot_program": "Program pilotażowy",
+    "project_status": "Stan projektu",
+    "company": "Firma",
+    "about": "O nas",
+    "partners": "Partnerzy",
+    "contact": "Kontakt",
+    "get_in_touch": "Skontaktuj się z nami",
+    "rights_reserved": "Wszystkie prawa zastrzeżone.",
+    "early_stage_notice": "Projekt na wczesnym etapie."
+  }
+}
