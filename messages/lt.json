@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kaip tai veikia",
+    "pilotProgram": "Pilotinė programa",
+    "about": "Apie mus",
+    "partners": "Partneriai",
+    "contact": "Kontaktai",
+    "getAudit": "Gauti pilotinę auditą"
+  },
+  "hero": {
+    "subtitle": "Automatizuotas atitikties vertinimas reguliuojamoms ES pramonės šakoms.",
+    "cta_primary": "Gauti pilotinę auditą",
+    "cta_secondary": "Sužinoti daugiau"
+  },
+  "footer": {
+    "brand_desc": "GDPR ir ES AI įstatymo atitikties automatizacija.",
+    "brand_status": "Ankstyvasis etapas. Pilotinė programa.",
+    "product": "Produktas",
+    "how_it_works": "Kaip tai veikia",
+    "pilot_program": "Pilotinė programa",
+    "project_status": "Projekto būsena",
+    "company": "Įmonė",
+    "about": "Apie mus",
+    "partners": "Partneriai",
+    "contact": "Kontaktai",
+    "get_in_touch": "Susisiekite su mumis",
+    "rights_reserved": "Visos teisės saugomos.",
+    "early_stage_notice": "Projektas ankstyvajame etape."
+  }
+}
