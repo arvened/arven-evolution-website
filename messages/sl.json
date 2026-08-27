@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kako deluje",
+    "pilotProgram": "Pilotni program",
+    "about": "O nas",
+    "partners": "Partnerji",
+    "contact": "Stik",
+    "getAudit": "Pridobi pilotni pregled"
+  },
+  "hero": {
+    "subtitle": "Avtomatizirana presoja skladnosti za regulirane industrije EU.",
+    "cta_primary": "Pridobi pilotni pregled",
+    "cta_secondary": "Izvedite več"
+  },
+  "footer": {
+    "brand_desc": "Avtomatizacija skladnosti z GDPR in zakonom EU o UI.",
+    "brand_status": "Zgodnja faza. Pilotni program.",
+    "product": "Izdelek",
+    "how_it_works": "Kako deluje",
+    "pilot_program": "Pilotni program",
+    "project_status": "Stanje projekta",
+    "company": "Podjetje",
+    "about": "O nas",
+    "partners": "Partnerji",
+    "contact": "Stik",
+    "get_in_touch": "Kontaktiraj nas",
+    "rights_reserved": "Vse pravice pridržane.",
+    "early_stage_notice": "Projekt v zgodnji fazi."
+  }
+}
