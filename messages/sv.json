@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Hur det fungerar",
+    "pilotProgram": "Pilotprogram",
+    "about": "Om oss",
+    "partners": "Partners",
+    "contact": "Kontakt",
+    "getAudit": "Få pilotgranskning"
+  },
+  "hero": {
+    "subtitle": "Automatiserad överensstämmelsebedömning för reglerade EU-industrier.",
+    "cta_primary": "Få pilotgranskning",
+    "cta_secondary": "Läs mer"
+  },
+  "footer": {
+    "brand_desc": "Automatisering av GDPR och EU AI Act-överensstämmelse.",
+    "brand_status": "Tidig fas. Pilotprogram.",
+    "product": "Produkt",
+    "how_it_works": "Hur det fungerar",
+    "pilot_program": "Pilotprogram",
+    "project_status": "Projektstatus",
+    "company": "Företag",
+    "about": "Om oss",
+    "partners": "Partners",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontakta oss",
+    "rights_reserved": "Alla rättigheter förbehållna.",
+    "early_stage_notice": "Projekt i tidig fas."
+  }
+}
