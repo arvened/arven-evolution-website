@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Miten se toimii",
+    "pilotProgram": "Pilottiohjelma",
+    "about": "Tietoja",
+    "partners": "Kumppanit",
+    "contact": "Yhteydenoton",
+    "getAudit": "Hanki pilottiauditointi"
+  },
+  "hero": {
+    "subtitle": "Automatisoitu vaatimuksenmukaisuuden arviointi säännelltyille EU-teollisuuksille.",
+    "cta_primary": "Hanki pilottiauditointi",
+    "cta_secondary": "Lue lisää"
+  },
+  "footer": {
+    "brand_desc": "GDPR- ja EU AI Act -vaatimuksenmukaisuuden automatisointi.",
+    "brand_status": "Varhainen vaihe. Pilottiohjelma.",
+    "product": "Tuote",
+    "how_it_works": "Miten se toimii",
+    "pilot_program": "Pilottiohjelma",
+    "project_status": "Hankkeen tila",
+    "company": "Yritys",
+    "about": "Tietoja",
+    "partners": "Kumppanit",
+    "contact": "Yhteydenoton",
+    "get_in_touch": "Ota yhteyttä",
+    "rights_reserved": "Kaikki oikeudet pidätetään.",
+    "early_stage_notice": "Projekti varhaisessa vaiheessa."
+  }
+}
