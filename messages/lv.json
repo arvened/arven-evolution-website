@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Kā tas darbojas",
+    "pilotProgram": "Pilots programma",
+    "about": "Par mums",
+    "partners": "Partneri",
+    "contact": "Kontakts",
+    "getAudit": "Iegūt pilota auditu"
+  },
+  "hero": {
+    "subtitle": "Automatizēta atbilstības novērtēšana regulētajām ES nozarēm.",
+    "cta_primary": "Iegūt pilota auditu",
+    "cta_secondary": "Uzzini vairāk"
+  },
+  "footer": {
+    "brand_desc": "GDPR un ES AI likuma atbilstības automatizācija.",
+    "brand_status": "Agrīnā stadija. Pilots programma.",
+    "product": "Produkts",
+    "how_it_works": "Kā tas darbojas",
+    "pilot_program": "Pilots programma",
+    "project_status": "Projekta statuss",
+    "company": "Uzņēmums",
+    "about": "Par mums",
+    "partners": "Partneri",
+    "contact": "Kontakts",
+    "get_in_touch": "Sazinies ar mums",
+    "rights_reserved": "Visas tiesības paturētas.",
+    "early_stage_notice": "Projekts agrīnā stadijā."
+  }
+}
