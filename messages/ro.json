@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Cum funcționează",
+    "pilotProgram": "Program pilot",
+    "about": "Despre noi",
+    "partners": "Parteneri",
+    "contact": "Contact",
+    "getAudit": "Obțineți audit pilot"
+  },
+  "hero": {
+    "subtitle": "Evaluare automată a conformității pentru industriile reglementate ale UE.",
+    "cta_primary": "Obțineți audit pilot",
+    "cta_secondary": "Aflați mai multe"
+  },
+  "footer": {
+    "brand_desc": "Automatizarea conformității GDPR și Legea IA a UE.",
+    "brand_status": "Etapă inițială. Program pilot.",
+    "product": "Produs",
+    "how_it_works": "Cum funcționează",
+    "pilot_program": "Program pilot",
+    "project_status": "Stare proiect",
+    "company": "Companie",
+    "about": "Despre noi",
+    "partners": "Parteneri",
+    "contact": "Contact",
+    "get_in_touch": "Contactați-ne",
+    "rights_reserved": "Toate drepturile sunt rezervate.",
+    "early_stage_notice": "Proiect în etapă inițială."
+  }
+}
