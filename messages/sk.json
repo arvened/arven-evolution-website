@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Ako to funguje",
+    "pilotProgram": "Pilotný program",
+    "about": "O nás",
+    "partners": "Partneri",
+    "contact": "Kontakt",
+    "getAudit": "Získaj pilotný audit"
+  },
+  "hero": {
+    "subtitle": "Automatizovaná hodnota podľa regulovaných priemyslov EÚ.",
+    "cta_primary": "Získaj pilotný audit",
+    "cta_secondary": "Zisti viac"
+  },
+  "footer": {
+    "brand_desc": "Automatizácia súladu s GDPR a zákonom o AI EÚ.",
+    "brand_status": "Skorá fáza. Pilotný program.",
+    "product": "Produkt",
+    "how_it_works": "Ako to funguje",
+    "pilot_program": "Pilotný program",
+    "project_status": "Stav projektu",
+    "company": "Spoločnosť",
+    "about": "O nás",
+    "partners": "Partneri",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontaktujte nás",
+    "rights_reserved": "Všetky práva vyhradené.",
+    "early_stage_notice": "Projekt v skorej fáze."
+  }
+}
