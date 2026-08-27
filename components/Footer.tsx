@@ -26,7 +26,7 @@
 
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
-import { Mail, Phone, MapPin, Linkedin, MessageCircle } from 'lucide-react'
+import { Mail, Phone, Linkedin, MessageCircle } from 'lucide-react'
 
 export default function Footer() {
   const t = useTranslations('footer')
