@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react'
 
 const languages = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'de', name: 'Deutsch', flag: '🇩' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
@@ -26,10 +26,9 @@ const languages = [
   { code: 'lv', name: 'Latviešu', flag: '🇱🇻' },
   { code: 'lt', name: 'Lietuvių', flag: '🇱🇹' },
   { code: 'mt', name: 'Malti', flag: '🇲🇹' },
-  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
+  { code: 'sk', name: 'Slovenčina', flag: '🇸' },
   { code: 'sl', name: 'Slovenščina', flag: '🇸🇮' },
   { code: 'et', name: 'Eesti', flag: '🇪🇪' },
-  { code: 'ua', name: 'Українська', flag: '🇺🇦' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
 ]
 
@@ -43,12 +42,12 @@ export default function LanguageSelector() {
   const handleLanguageChange = (langCode: string) => {
     let newPath = pathname || '/'
 
-    const pathWithoutLang = pathname?.replace(/^\/(en|de|fr|it|es|nl|pl|sv|da|fi|cs|hu|ro|bg|hr|el|pt|ga|lv|lt|mt|sk|sl|et|ua|ru)/, '') || '/'
+    const pathWithoutLang = pathname?.replace(/^\/(en|bg|hr|cs|da|nl|et|fi|fr|de|el|hu|ga|it|lv|lt|mt|pl|pt|ro|ru|sk|sl|es|sv)/, '') || '/'
 
     if (langCode === 'en') {
       newPath = pathWithoutLang || '/'
     } else {
-      newPath = `/${langCode}${pathWithoutLang}`
+      newPath = /${langCode}${pathWithoutLang}
     }
 
     router.push(newPath)
