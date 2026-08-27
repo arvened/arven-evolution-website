@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Как работи",
+    "pilotProgram": "Пилот програма",
+    "about": "За нас",
+    "partners": "Партньори",
+    "contact": "Контакт",
+    "getAudit": "Получи пилот одит"
+  },
+  "hero": {
+    "subtitle": "Автоматизирана оценка на съответствие за регулирани индустрии на ЕС.",
+    "cta_primary": "Получи пилот одит",
+    "cta_secondary": "Научи се повече"
+  },
+  "footer": {
+    "brand_desc": "Автоматизация на съответствие GDPR и EU AI Act.",
+    "brand_status": "Ранна етап. Пилот програма.",
+    "product": "Продукт",
+    "how_it_works": "Как работи",
+    "pilot_program": "Пилот програма",
+    "project_status": "Статус проект",
+    "company": "Компания",
+    "about": "За нас",
+    "partners": "Партньори",
+    "contact": "Контакт",
+    "get_in_touch": "Свържи се с нас",
+    "rights_reserved": "Всички права запазени.",
+    "early_stage_notice": "Проект на ранна етап."
+  }
+}
