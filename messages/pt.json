@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Como funciona",
+    "pilotProgram": "Programa piloto",
+    "about": "Sobre nós",
+    "partners": "Parceiros",
+    "contact": "Contacto",
+    "getAudit": "Obtenha auditoria piloto"
+  },
+  "hero": {
+    "subtitle": "Avaliação automatizada de conformidade para indústrias reguladas da UE.",
+    "cta_primary": "Obtenha auditoria piloto",
+    "cta_secondary": "Saiba mais"
+  },
+  "footer": {
+    "brand_desc": "Automação de conformidade GDPR e Lei de IA da UE.",
+    "brand_status": "Estágio inicial. Programa piloto.",
+    "product": "Produto",
+    "how_it_works": "Como funciona",
+    "pilot_program": "Programa piloto",
+    "project_status": "Status do projeto",
+    "company": "Empresa",
+    "about": "Sobre nós",
+    "partners": "Parceiros",
+    "contact": "Contacto",
+    "get_in_touch": "Entre em contato",
+    "rights_reserved": "Todos os direitos reservados.",
+    "early_stage_notice": "Projeto em estágio inicial."
+  }
+}
