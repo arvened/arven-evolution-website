@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Jak to funguje",
+    "pilotProgram": "Pilotní program",
+    "about": "O nás",
+    "partners": "Partneři",
+    "contact": "Kontakt",
+    "getAudit": "Získej pilotní audit"
+  },
+  "hero": {
+    "subtitle": "Automatizované posouzení souladu pro regulované průmysly EU.",
+    "cta_primary": "Získej pilotní audit",
+    "cta_secondary": "Zjistit více"
+  },
+  "footer": {
+    "brand_desc": "Automatizace souladu GDPR a EU AI Act.",
+    "brand_status": "Rané stadium. Pilotní program.",
+    "product": "Produkt",
+    "how_it_works": "Jak to funguje",
+    "pilot_program": "Pilotní program",
+    "project_status": "Stav projektu",
+    "company": "Společnost",
+    "about": "O nás",
+    "partners": "Partneři",
+    "contact": "Kontakt",
+    "get_in_touch": "Kontaktujte nás",
+    "rights_reserved": "Všechna práva vyhrazena.",
+    "early_stage_notice": "Projekt v raném stadiu."
+  }
+}
