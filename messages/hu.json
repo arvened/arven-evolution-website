@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Hogyan működik",
+    "pilotProgram": "Pilot program",
+    "about": "Rólunk",
+    "partners": "Partnerek",
+    "contact": "Kapcsolat",
+    "getAudit": "Pilot audit beszerzése"
+  },
+  "hero": {
+    "subtitle": "Automatizált megfelelőségi értékelés az EU szabályozott iparágai számára.",
+    "cta_primary": "Pilot audit beszerzése",
+    "cta_secondary": "További információ"
+  },
+  "footer": {
+    "brand_desc": "GDPR és EU AI jog szerinti megfelelőség automatizálása.",
+    "brand_status": "Korai szakasz. Pilot program.",
+    "product": "Termék",
+    "how_it_works": "Hogyan működik",
+    "pilot_program": "Pilot program",
+    "project_status": "Projekt státusza",
+    "company": "Vállalat",
+    "about": "Rólunk",
+    "partners": "Partnerek",
+    "contact": "Kapcsolat",
+    "get_in_touch": "Vegye fel velünk a kapcsolatot",
+    "rights_reserved": "Minden jog fenntartva.",
+    "early_stage_notice": "Projekt korai szakaszában."
+  }
+}
