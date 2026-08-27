@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "howItWorks": "Comment ça fonctionne",
+    "pilotProgram": "Programme pilote",
+    "about": "À propos",
+    "partners": "Partenaires",
+    "contact": "Contact",
+    "getAudit": "Obtenir un audit pilote"
+  },
+  "hero": {
+    "subtitle": "Évaluation automatisée de la conformité pour les industries réglementées de l'UE.",
+    "cta_primary": "Obtenir un audit pilote",
+    "cta_secondary": "En savoir plus"
+  },
+  "footer": {
+    "brand_desc": "Automatisation de la conformité RGPD et loi sur l'IA de l'UE.",
+    "brand_status": "Stade précoce. Programme pilote.",
+    "product": "Produit",
+    "how_it_works": "Comment ça fonctionne",
+    "pilot_program": "Programme pilote",
+    "project_status": "Statut du projet",
+    "company": "Entreprise",
+    "about": "À propos",
+    "partners": "Partenaires",
+    "contact": "Contact",
+    "get_in_touch": "Nous contacter",
+    "rights_reserved": "Tous droits réservés.",
+    "early_stage_notice": "Projet en phase précoce."
+  }
+}
