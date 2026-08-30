@@ -1,8 +1,4 @@
-{/* Social Links */}
-          <div className="flex justify-center gap-6 mb-8">
-            <a
-              href="https://linkedin.com/in/eduard-arbitman"
-              target="_blank"
+target="_blank"
               rel="noopener noreferrer"
               className="text-arven-text-tertiary hover:text-arven-magenta transition-colors"
             >
@@ -10,7 +6,6 @@
             </a>
           </div>
 
-          {/* Copyright */}
           <div className="text-center text-arven-text-tertiary text-sm">
             <p>&copy; {currentYear} ARVEN PLATFORM. {t('rights_reserved')}</p>
             <p className="mt-2 text-xs">
@@ -21,8 +16,7 @@
       </div>
     </footer>
   )
-}
-'use client'
+}'use client'
 
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
@@ -36,7 +30,6 @@ export default function Footer() {
     <footer className="bg-arven-darker border-t border-arven-magenta/20 py-16">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          {/* Brand */}
           <div>
             <div className="text-xl font-montserrat font-bold text-arven-magenta mb-3">
               ARVEN PLATFORM
@@ -49,7 +42,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Product */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
               {t('product')}
@@ -73,7 +65,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
               {t('company')}
@@ -97,7 +88,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-montserrat font-semibold text-white mb-4">
               {t('get_in_touch')}
@@ -125,5 +115,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
         <div className="border-t border-arven-magenta/10 pt-8">
+          <div className="flex justify-center gap-6 mb-8">
+            <a
+              href="https://linkedin.com/in/eduard-arbitman"
