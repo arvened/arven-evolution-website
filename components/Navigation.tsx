@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import LanguageSelector from './LanguageSelector'
 
 export default function Navigation() {
   const t = useTranslations('nav')
@@ -38,6 +39,7 @@ export default function Navigation() {
           <a href="#contact" className="px-6 py-2 bg-arven-magenta text-white rounded-lg hover:bg-opacity-80 transition">
             {t('getAudit')}
           </a>
+          <LanguageSelector />
         </div>
 
         <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden">
@@ -66,6 +68,7 @@ export default function Navigation() {
             <a href="#contact" className="px-6 py-2 bg-arven-magenta text-white rounded-lg hover:bg-opacity-80 transition">
               {t('getAudit')}
             </a>
+            <LanguageSelector />
           </div>
         </div>
       )}
