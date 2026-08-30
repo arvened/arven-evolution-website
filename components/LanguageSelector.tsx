@@ -47,7 +47,7 @@ export default function LanguageSelector() {
     if (langCode === 'en') {
       newPath = pathWithoutLang || '/'
     } else {
-      newPath = /${langCode}${pathWithoutLang}
+    newPath = `/${langCode}${pathWithoutLang}`  
     }
 
     router.push(newPath)
